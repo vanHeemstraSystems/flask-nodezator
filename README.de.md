@@ -1,6 +1,6 @@
 Repository-Name
 
-# Repository-Name
+# Repository Name
 
 Basierend auf „ABC“ unter<https://www.abc.com/>
 
@@ -8,7 +8,7 @@ Basierend auf „ABC“ unter<https://www.abc.com/>
 
 Sehen[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 – Anforderungen
 
 Sehen[README.md](./200/README.md)
 
