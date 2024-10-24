@@ -14,8 +14,8 @@ Voer deze applicatie als volgt uit:
 
 Volg in geval van het volgende het advies:
 
-De virtuele omgeving is niet succesvol gemaakt omdat surepip dat niet is
-beschikbaar.
+The virtual environment was not created successfully because ensurepip is not
+available.  
 
 Op Debian/Ubuntu-systemen moet u het bestand python3-venv installeren
 pakket met behulp van de volgende opdracht.
@@ -29,8 +29,7 @@ pakket, creëer uw virtuele omgeving opnieuw.
 Op macOS zie<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) Start de virtuele omgeving en voer in:`. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
-4) Rennen`$ pip install -r requirements.txt`
-5) Run: `$ cd app`Dan`$ npm install` finally `$ cd ..`6) Stel de Flask-app in op de app-map:`(.venv) $ export FLASK_APP=app`7) Stel de Flask Environment in op True voor ontwikkeling:`(.venv) $ export FLASK_DEBUG=True`8) Stel de SQLAlchemy Database-URI in:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, standaard is`sqlite:///app.db`9) SQLAlchemy-trackwijzigingen instellen:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheime sleutel instellen:`(.venv) $ export SECRET_KEY=********`11) Voer de flask-app uit: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) Open de webinterface zoals gevraagd
+4) Rennen`$ pip install -r requirements.txt`5) Uitvoeren:`$ cd app`Dan`$ npm install`Eindelijk`$ cd ..`6) Stel de Flask-app in op de app-map:`(.venv) $ export FLASK_APP=app`7) Stel de Flask Environment in op True voor ontwikkeling:`(.venv) $ export FLASK_DEBUG=True`8) Stel de SQLAlchemy Database-URI in:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, standaard is`sqlite:///app.db`9) SQLAlchemy-trackwijzigingen instellen:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheime sleutel instellen:`(.venv) $ export SECRET_KEY=********`11) Voer de flask-app uit: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) Open de webinterface zoals gevraagd
 13) Gebruik`CTRL+c`om de webserver te verlaten.
 14) U kunt ook de flask-opdrachtregelinterface uitvoeren:`(.venv) $ flask shell`15) Voer eventuele flescommando's uit: >>>
 16) Gebruik`exit()`om de opdrachtregelinterface te verlaten.
