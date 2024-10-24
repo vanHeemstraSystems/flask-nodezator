@@ -1,5 +1,6 @@
 from app.extensions import db
 from app.utils.utils_db import init_db
+from app.models.node import Node
 from config import Config
 from flask import Flask
 from flask_migrate import Migrate
@@ -38,7 +39,10 @@ def create_app(config_class=Config):
     def test_page():
         return '<h1>Testing the Flask Application Factory Pattern</h1>'
 
+    nodezator = Nodezator(app, db, Node)
+
     with app.app_context():
-        init_db()    
+        init_db()
+        Nodezator()   
 
     return app
