@@ -4,7 +4,7 @@ flacon-nodezateur
 
 > Une application Python Flask avec Nodezator
 
-Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.com/`pour utiliser l'EDI Web Visual Studio Code.
+Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.com/` to use the Visual Studio Code web-based IDE.
 
 # Résumé exécutif
 
