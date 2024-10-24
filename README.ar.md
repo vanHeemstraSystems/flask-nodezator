@@ -2,7 +2,7 @@
 
 # اسم المستودع
 
-Based on "ABC" at <https://www.abc.com/>
+استنادا إلى "ABC" في<https://www.abc.com/>
 
 ## 100- مقدمة
 
@@ -10,11 +10,11 @@ Based on "ABC" at <https://www.abc.com/>
 
 ## 200 - المتطلبات
 
-See [README.md](./200/README.md)
+يرى[README.md](./200/README.md)
 
 ## 300 – بناء تطبيقنا
 
-See [README.md](./300/README.md)
+يرى[README.md](./300/README.md)
 
 ## 400 - الخاتمة
 
