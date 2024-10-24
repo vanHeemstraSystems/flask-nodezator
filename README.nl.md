@@ -10,8 +10,7 @@ Open deze URL met`https://github.dev/`in plaats van`https://github.com/`om de we
 
 Voer deze applicatie als volgt uit:
 
-1) Voer in`flask_app`map:`$ cd flask_app`
-2) If non-existent, create a virtual environment inside the `flask_app`map:`$ python3 -m venv .venv` (macOS: `$ virtualenv .venv`)
+1) Voer in`flask_app`map:`$ cd flask_app`2) Als deze niet bestaat, creëer dan een virtuele omgeving binnen de`flask_app`map:`$ python3 -m venv .venv`(macOS:`$ virtualenv .venv`)
 
 Volg in geval van het volgende het advies:
 
@@ -39,7 +38,7 @@ Over het algemeen kunt u de volgende stappen nemen om uw databasemigraties te be
 
 1) Wijzig de databasemodellen.
 
-2) If no `migrations`directory bestaat nog in de`flask_app`map, uitvoeren` (.venv) flask_app $ flask db init`.
+2) Indien nee`migrations`directory bestaat nog in de`flask_app`map, uitvoeren` (.venv) flask_app $ flask db init`.
 
 3) Genereer een migratiescript met de`flask db migrate -m "some comment"`commando. Als er sinds de laatste migratie geen wijzigingen zijn aangebracht, wordt u gevraagd om`No changes in schema detected.`. Daarom kun je dit commando zonder angst herhalen.
 
@@ -55,7 +54,7 @@ Zien[README.md](./100/README.md)
 
 ## 200 - Vereisten
 
-See [README.md](./200/README.md)
+Zien[README.md](./200/README.md)
 
 ## 300 - Onze applicatie bouwen
 
