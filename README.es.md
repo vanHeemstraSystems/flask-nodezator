@@ -6,6 +6,8 @@ matraz-nodezador
 
 Abra esta URL con`https://github.dev/`en lugar de`https://github.com/`para utilizar el IDE basado en web de Visual Studio Code.
 
+[Referencias](./REFERENCES.md)
+
 # Resumen ejecutivo
 
 Ejecute esta aplicación de la siguiente manera:
