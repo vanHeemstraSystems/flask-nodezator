@@ -6,6 +6,8 @@
 
 افتح عنوان URL هذا باستخدام`https://github.dev/`بدلاً من`https://github.com/`لاستخدام IDE المستند إلى الويب لـ Visual Studio Code.
 
+[مراجع](./REFERENCES.md)
+
 # ملخص تنفيذي
 
 قم بتشغيل هذا التطبيق على النحو التالي:
