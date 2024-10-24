@@ -1,4 +1,4 @@
-烧瓶节点化器
+flask-nodezator
 
 # Flask Nodezator
 
