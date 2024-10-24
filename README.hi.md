@@ -2,7 +2,7 @@
 
 # भंडार का नाम
 
-Based on "ABC" at <https://www.abc.com/>
+"एबीसी" पर आधारित<https://www.abc.com/>
 
 ## 100 - परिचय
 
