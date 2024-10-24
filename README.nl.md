@@ -14,8 +14,8 @@ Voer deze applicatie als volgt uit:
 
 Volg in geval van het volgende het advies:
 
-The virtual environment was not created successfully because ensurepip is not
-available.  
+De virtuele omgeving is niet succesvol gemaakt omdat surepip dat niet is
+beschikbaar.
 
 Op Debian/Ubuntu-systemen moet u het bestand python3-venv installeren
 pakket met behulp van de volgende opdracht.
