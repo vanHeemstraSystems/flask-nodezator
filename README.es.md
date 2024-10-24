@@ -48,7 +48,7 @@ En general, puede seguir los siguientes pasos para administrar las migraciones d
 
 6) Para restaurar una versión anterior de la base de datos, utilice el`flask db downgrade`dominio.
 
-## 100 - Introduction
+## 100 - Introducción
 
 Ver[README.md](./100/README.md)
 
