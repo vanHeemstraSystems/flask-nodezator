@@ -28,7 +28,7 @@ pakket, creëer uw virtuele omgeving opnieuw.
 
 Op macOS zie<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
-3) Start de virtuele omgeving en voer in:`. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
+3) Start de virtuele omgeving en voer het volgende in:`. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
 4) Rennen`$ pip install -r requirements.txt`5) Uitvoeren:`$ cd app`Dan`$ npm install`Eindelijk`$ cd ..`6) Stel de Flask-app in op de app-map:`(.venv) $ export FLASK_APP=app`7) Stel de Flask Environment in op True voor ontwikkeling:`(.venv) $ export FLASK_DEBUG=True`8) Stel de SQLAlchemy Database-URI in:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, standaard is`sqlite:///app.db`9) SQLAlchemy-trackwijzigingen instellen:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Geheime sleutel instellen:`(.venv) $ export SECRET_KEY=********`11) Voer de flask-app uit: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) Open de webinterface zoals gevraagd
 13) Gebruik`CTRL+c`om de webserver te verlaten.
 14) U kunt ook de flask-opdrachtregelinterface uitvoeren:`(.venv) $ flask shell`15) Voer eventuele flescommando's uit: >>>
@@ -40,7 +40,7 @@ Over het algemeen kunt u de volgende stappen nemen om uw databasemigraties te be
 
 2) Indien nee`migrations`directory bestaat nog in de`flask_app`map, uitvoeren` (.venv) flask_app $ flask db init`.
 
-3) Genereer een migratiescript met de`flask db migrate -m "some comment"`commando. Als er sinds de laatste migratie geen wijzigingen zijn aangebracht, wordt u gevraagd om`No changes in schema detected.`. Daarom kun je dit commando zonder angst herhalen.
+3) Generate a migration script with the `flask db migrate -m "some comment"`commando. Als er sinds de laatste migratie geen wijzigingen zijn aangebracht, wordt u gevraagd om`No changes in schema detected.`. Daarom kun je dit commando zonder angst herhalen.
 
 4) Controleer het gegenereerde migratiescript en corrigeer het indien nodig.
 
