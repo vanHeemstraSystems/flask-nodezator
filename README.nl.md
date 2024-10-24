@@ -6,6 +6,8 @@ kolf-knooppunt
 
 Open deze URL met`https://github.dev/`in plaats van`https://github.com/`om de webgebaseerde IDE van Visual Studio Code te gebruiken.
 
+[Referenties](./REFERENCES.md)
+
 # Samenvatting
 
 Voer deze applicatie als volgt uit:
@@ -40,7 +42,7 @@ Over het algemeen kunt u de volgende stappen nemen om uw databasemigraties te be
 
 2) Indien nee`migrations`directory bestaat nog in de`flask_app`map, uitvoeren` (.venv) flask_app $ flask db init`.
 
-3) Generate a migration script with the `flask db migrate -m "some comment"`commando. Als er sinds de laatste migratie geen wijzigingen zijn aangebracht, wordt u gevraagd om`No changes in schema detected.`. Daarom kun je dit commando zonder angst herhalen.
+3) Genereer een migratiescript met de`flask db migrate -m "some comment"`commando. Als er sinds de laatste migratie geen wijzigingen zijn aangebracht, wordt u gevraagd om`No changes in schema detected.`. Daarom kun je dit commando zonder angst herhalen.
 
 4) Controleer het gegenereerde migratiescript en corrigeer het indien nodig.
 
