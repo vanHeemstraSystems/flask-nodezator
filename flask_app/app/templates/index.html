@@ -20,7 +20,7 @@
                 return await response.json();
             },
             addNode: async (node) => {
-                await fetch('/add_node', {
+                await fetch('/nodes/new', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(node)
@@ -29,7 +29,7 @@
         });
 
         document.getElementById('exportBtn').onclick = async () => {
-            const response = await fetch('/export_yaml');
+            const response = await fetch('/yaml/export');
             const result = await response.json();
             console.log('YAML Export:', result.yaml);
         };

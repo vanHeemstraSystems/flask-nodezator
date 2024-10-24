@@ -39,7 +39,7 @@ def create_app(config_class=Config):
     def test_page():
         return '<h1>Testing the Flask Application Factory Pattern</h1>'
 
-    nodezator = Nodezator(app, db, Node)
+    # nodezator = Nodezator(app, db, Node)
 
     with app.app_context():
         init_db()
