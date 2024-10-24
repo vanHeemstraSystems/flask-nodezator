@@ -5,6 +5,8 @@ flask-nodezator
 
 Open this URL with ```https://github.dev/``` instead of ```https://github.com/``` to use the Visual Studio Code web-based IDE.
 
+[References](./REFERENCES.md)
+
 # Executive Summary
 
 Run this application as follows:
