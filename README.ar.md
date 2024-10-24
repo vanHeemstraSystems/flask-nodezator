@@ -14,16 +14,16 @@
 
 وفي حالة ما يلي، اتبع نصيحتها:
 
-لم يتم إنشاء البيئة الافتراضية بنجاح بسبب عدم إنشاء ميزة التأكد من ذلك
+لم يتم إنشاء البيئة الظاهرية بنجاح نظرًا لعدم إنشاء متأكد
 متاح.
 
-على أنظمة Debian/Ubuntu، تحتاج إلى تثبيت python3-venv
-الحزمة باستخدام الأمر التالي.
+On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
 
     sudo apt-get update
     sudo apt install python3.10-venv
 
-قد تحتاج إلى استخدام sudo مع هذا الأمر.  بعد تثبيت python3-venv
+قد تحتاج إلى استخدام Sudo مع هذا الأمر.  بعد تثبيت python3-venv
 الحزمة، أعد إنشاء بيئتك الافتراضية.
 
 على نظام التشغيل MacOS، انظر<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
@@ -38,9 +38,9 @@
 
 1) تعديل نماذج قاعدة البيانات.
 
-2) إذا لا`migrations` directory yet exists in the `flask_app`الدليل، تشغيل` (.venv) flask_app $ flask db init`.
+2) إذا لا`migrations`الدليل موجود حتى الآن في`flask_app`الدليل، تشغيل` (.venv) flask_app $ flask db init`.
 
-3) Generate a migration script with the `flask db migrate -m "some comment"`يأمر. إذا لم تكن هناك أي تغييرات منذ آخر عملية ترحيل، فستتم مطالبتك بذلك`No changes in schema detected.`. ومن ثم، يمكنك تكرار هذا الأمر دون خوف.
+3) قم بإنشاء برنامج نصي للترحيل باستخدام ملف`flask db migrate -m "some comment"`يأمر. إذا لم تكن هناك أي تغييرات منذ آخر عملية ترحيل، فستتم مطالبتك بذلك`No changes in schema detected.`. ومن ثم، يمكنك تكرار هذا الأمر دون خوف.
 
 4) قم بمراجعة البرنامج النصي للترحيل الذي تم إنشاؤه وقم بتصحيحه إذا لزم الأمر.
 
