@@ -1,6 +1,6 @@
 اسم المستودع
 
-# اسم المستودع
+# Repository Name
 
 استنادا إلى "ABC" في<https://www.abc.com/>
 
@@ -8,7 +8,7 @@
 
 يرى[README.md](./100/README.md)
 
-## 200 - المتطلبات
+## 200 - Requirements
 
 يرى[README.md](./200/README.md)
 
