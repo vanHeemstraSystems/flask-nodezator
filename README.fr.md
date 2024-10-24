@@ -6,6 +6,8 @@ flacon-nodezator
 
 Ouvrez cette URL avec`https://github.dev/`au lieu de`https://github.com/`pour utiliser l'EDI Web Visual Studio Code.
 
+[Références](./REFERENCES.md)
+
 # Résumé exécutif
 
 Exécutez cette application comme suit :
@@ -38,7 +40,7 @@ En général, vous pouvez suivre les étapes suivantes pour gérer vos migration
 
 1) Modifier les modèles de base de données.
 
-2) Si non`migrations` directory yet exists in the `flask_app`répertoire, exécutez` (.venv) flask_app $ flask db init`.
+2) Si non`migrations`répertoire existe encore dans le`flask_app`répertoire, exécutez` (.venv) flask_app $ flask db init`.
 
 3) Générez un script de migration avec le`flask db migrate -m "some comment"`commande. S'il n'y a eu aucun changement depuis la dernière migration, vous serez invité à`No changes in schema detected.`. Par conséquent, vous pouvez répéter cette commande sans crainte.
 
