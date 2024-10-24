@@ -1,1 +1,38 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threagile Node Manager</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nodezator/dist/nodezator.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/nodezator/dist/nodezator.min.js"></script>
+</head>
+<body>
+    <h1>Threagile Node Manager</h1>
+    <div id="nodezator-container"></div>
+    <button id="exportBtn">Export to YAML</button>
+
+    <script>
+        const nodezator = new Nodezator('#nodezator-container', {
+            fetchNodes: async () => {
+                const response = await fetch('/nodes');
+                return await response.json();
+            },
+            addNode: async (node) => {
+                await fetch('/add_node', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(node)
+                });
+            }
+        });
+
+        document.getElementById('exportBtn').onclick = async () => {
+            const response = await fetch('/export_yaml');
+            const result = await response.json();
+            console.log('YAML Export:', result.yaml);
+        };
+    </script>
+</body>
+</html>
