@@ -38,9 +38,9 @@
 
 1) تعديل نماذج قاعدة البيانات.
 
-2) إذا لا`migrations`الدليل موجود حتى الآن في`flask_app`الدليل، تشغيل` (.venv) flask_app $ flask db init`.
+2) إذا لا`migrations` directory yet exists in the `flask_app`الدليل، تشغيل` (.venv) flask_app $ flask db init`.
 
-3) قم بإنشاء برنامج نصي للترحيل باستخدام ملف`flask db migrate -m "some comment"`يأمر. إذا لم تكن هناك أي تغييرات منذ آخر عملية ترحيل، فستتم مطالبتك بذلك`No changes in schema detected.`. ومن ثم، يمكنك تكرار هذا الأمر دون خوف.
+3) Generate a migration script with the `flask db migrate -m "some comment"`يأمر. إذا لم تكن هناك أي تغييرات منذ آخر عملية ترحيل، فستتم مطالبتك بذلك`No changes in schema detected.`. ومن ثم، يمكنك تكرار هذا الأمر دون خوف.
 
 4) قم بمراجعة البرنامج النصي للترحيل الذي تم إنشاؤه وقم بتصحيحه إذا لزم الأمر.
 
