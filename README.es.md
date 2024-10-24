@@ -23,13 +23,13 @@ paquete usando el siguiente comando.
     sudo apt-get update
     sudo apt install python3.10-venv
 
-Es posible que necesites usar sudo con ese comando.  Después de instalar python3-venv
-paquete, recrear su entorno virtual.
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
 
 En macOS ver<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) Inicie el entorno virtual e ingrese:`. .venv/bin/activate`(macOS:`source .venv/bin/activate`)
-4) correr`$ pip install -r requirements.txt`5) Ejecutar:`$ cd app`entonces`$ npm install`finalmente`$ cd ..`6) Configure la aplicación Flask en el directorio de aplicaciones:`(.venv) $ export FLASK_APP=app`7) Establezca el entorno Flask en Verdadero para el desarrollo:`(.venv) $ export FLASK_DEBUG=True`8) Configure el URI de la base de datos SQLAlchemy:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, el valor predeterminado es`sqlite:///app.db`9) Establecer modificaciones de seguimiento de SQLAlchemy:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Establecer clave secreta:`(.venv) $ export SECRET_KEY=********`11) Ejecute la aplicación del matraz: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) Abra la interfaz web cuando se le solicite
+4) correr`$ pip install -r requirements.txt`5) Ejecutar:`$ cd app` then `$ npm install`finalmente`$ cd ..`6) Configure la aplicación Flask en el directorio de aplicaciones:`(.venv) $ export FLASK_APP=app`7) Establezca el entorno Flask en Verdadero para el desarrollo:`(.venv) $ export FLASK_DEBUG=True`8) Configure el URI de la base de datos SQLAlchemy:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, el valor predeterminado es`sqlite:///app.db`9) Establecer modificaciones de seguimiento de SQLAlchemy:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) Establecer clave secreta:`(.venv) $ export SECRET_KEY=********`11) Ejecute la aplicación del matraz: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) Abra la interfaz web cuando se le solicite
 13) Uso`CTRL+c`para salir del servidor web.
 14) Alternativamente, ejecute la interfaz de línea de comando del matraz:`(.venv) $ flask shell`15) Ejecute cualquier comando de matraz: >>>
 16) Uso`exit()`para salir de la interfaz de línea de comando.
@@ -40,7 +40,7 @@ En general, puede seguir los siguientes pasos para administrar las migraciones d
 
 2) Si no`migrations`directorio todavía existe en el`flask_app`directorio, ejecutar` (.venv) flask_app $ flask db init`.
 
-3) Generar un script de migración con el`flask db migrate -m "some comment"`dominio. Si no ha habido cambios desde la última migración, se le solicitará`No changes in schema detected.`. De ahí que puedas repetir este comando sin miedo.
+3) Generar un script de migración con el`flask db migrate -m "some comment"` command. If there have been no changes since last migration, you will be prompted with `No changes in schema detected.`. De ahí que puedas repetir este comando sin miedo.
 
 4) Revise el script de migración generado y corríjalo si es necesario.
 
