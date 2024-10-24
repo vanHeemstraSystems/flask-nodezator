@@ -1,4 +1,4 @@
-flask-nodezator
+फ्लास्क-नोडेज़ेटर
 
 # फ्लास्क नोडेज़ेटर
 
@@ -14,7 +14,7 @@ flask-nodezator
 
 निम्नलिखित के मामले में, इसकी सलाह का पालन करें:
 
-वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि एनिश्चेपिप नहीं है
+वर्चुअल वातावरण सफलतापूर्वक नहीं बनाया गया क्योंकि सुनिश्चिप नहीं है
 उपलब्ध।
 
 डेबियन/उबंटू सिस्टम पर, आपको Python3-venv इंस्टॉल करना होगा
@@ -29,13 +29,12 @@ flask-nodezator
 MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualenv.html>
 
 3) आभासी वातावरण प्रारंभ करें और दर्ज करें:`. .venv/bin/activate`(मैक ओएस:`source .venv/bin/activate`)
-4) भागो`$ pip install -r requirements.txt`5) भागो:`$ cd app`तब`$ npm install`अंत में`$ cd ..`6) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`7) विकास के लिए फ्लास्क पर्यावरण को सही पर सेट करें:`(.venv) $ export FLASK_DEBUG=True`8) SQLAlchemy डेटाबेस URI सेट करें:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, डिफ़ॉल्ट है`sqlite:///app.db`
-9) Set SQLAlchemy Track Modifications: `(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) गुप्त कुंजी सेट करें:`(.venv) $ export SECRET_KEY=********`11) फ्लास्क ऐप चलाएँ: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) संकेतानुसार वेब इंटरफ़ेस खोलें
+4) भागो`$ pip install -r requirements.txt`5) भागो:`$ cd app`तब`$ npm install`अंत में`$ cd ..`6) फ्लास्क ऐप को ऐप डायरेक्टरी पर सेट करें:`(.venv) $ export FLASK_APP=app`7) विकास के लिए फ्लास्क पर्यावरण को सही पर सेट करें:`(.venv) $ export FLASK_DEBUG=True`8) SQLAlchemy डेटाबेस URI सेट करें:`(.venv) $ export SQLALCHEMY_DATABASE_URI=...`, डिफ़ॉल्ट है`sqlite:///app.db`9) SQLAlchemy ट्रैक संशोधन सेट करें:`(.venv) $ export SQLALCHEMY_TRACK_MODIFICATIONS=True`10) गुप्त कुंजी सेट करें:`(.venv) $ export SECRET_KEY=********`11) फ्लास्क ऐप चलाएँ: ~`(.venv) $ flask run`~`(.venv) $ python3 run.py`12) संकेतानुसार वेब इंटरफ़ेस खोलें
 13) प्रयोग करें`CTRL+c`वेब सर्वर से बाहर निकलने के लिए.
 14) वैकल्पिक रूप से फ्लास्क कमांड लाइन इंटरफ़ेस चलाएँ:`(.venv) $ flask shell`15) किसी भी फ्लास्क कमांड को निष्पादित करें: >>>
 16) उपयोग करें`exit()`कमांड लाइन इंटरफ़ेस से बाहर निकलने के लिए।
 
-सामान्य तौर पर, आप अपने फ्लास्क अनुप्रयोगों को विकसित करते समय अपने डेटाबेस माइग्रेशन को प्रबंधित करने के लिए निम्नलिखित कदम उठा सकते हैं:
+सामान्य तौर पर, आप अपने फ्लास्क एप्लिकेशन विकसित करते समय अपने डेटाबेस माइग्रेशन को प्रबंधित करने के लिए निम्नलिखित कदम उठा सकते हैं:
 
 1) डेटाबेस मॉडल को संशोधित करें।
 
@@ -45,7 +44,7 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 4) उत्पन्न माइग्रेशन स्क्रिप्ट की समीक्षा करें और यदि आवश्यक हो तो इसे सही करें।
 
-5) Apply the changes to the database with the `flask db upgrade`आज्ञा।
+5) डेटाबेस में परिवर्तन लागू करें`flask db upgrade`आज्ञा।
 
 6) पिछले डेटाबेस संस्करण को पुनर्स्थापित करने के लिए, इसका उपयोग करें`flask db downgrade`आज्ञा।
 
@@ -63,4 +62,4 @@ MacOS पर देखें<https://sourabhbajaj.com/mac-setup/Python/virtualen
 
 ## 400 - निष्कर्ष
 
-देखना[README.md](./400/README.md)
+See [README.md](./400/README.md)
