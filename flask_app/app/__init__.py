@@ -43,6 +43,6 @@ def create_app(config_class=Config):
 
     with app.app_context():
         init_db()
-        Nodezator()   
+        # nodezator  
 
     return app
