@@ -44,7 +44,7 @@
 
 4) قم بمراجعة البرنامج النصي للترحيل الذي تم إنشاؤه وقم بتصحيحه إذا لزم الأمر.
 
-5) Apply the changes to the database with the `flask db upgrade`يأمر.
+5) تطبيق التغييرات على قاعدة البيانات مع`flask db upgrade`يأمر.
 
 6) لاستعادة إصدار سابق من قاعدة البيانات، استخدم الأمر`flask db downgrade`يأمر.
 
@@ -52,7 +52,7 @@
 
 يرى[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - المتطلبات
 
 يرى[README.md](./200/README.md)
 
