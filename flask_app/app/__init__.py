@@ -31,6 +31,9 @@ def create_app(config_class=Config):
     from app.routes.node_routes import node_bp
     app.register_blueprint(node_bp, url_prefix='/nodes')
 
+    from app.routes.yaml_routes import yaml_bp
+    app.register_blueprint(yaml_bp, url_prefix='/yaml')    
+
     @app.route('/test/')
     def test_page():
         return '<h1>Testing the Flask Application Factory Pattern</h1>'
