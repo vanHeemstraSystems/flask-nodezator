@@ -6,6 +6,8 @@
 
 打开此网址`https://github.dev/`而不是`https://github.com/`使用基于 Web 的 Visual Studio Code IDE。
 
+[参考](./REFERENCES.md)
+
 # 执行摘要
 
 按如下方式运行该应用程序：
